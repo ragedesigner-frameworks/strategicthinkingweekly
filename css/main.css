@@ -177,8 +177,20 @@ strong { font-weight: var(--font-semibold); color: var(--dark); }
     color: var(--primary);
     border-color: var(--primary);
 }
-.btn-secondary:hover { background: var(--primary); color: var(--white) !important; }
+.btn-secondary:hover { background: var(--primary); color: var(--white); }
 .btn-lg { padding: var(--space-3) var(--space-6); font-size: var(--text-lg); }
+
+/* Secondary buttons on dark backgrounds */
+.section-dark .btn-secondary,
+.newsletter-cta .btn-secondary {
+    color: var(--primary);
+    border-color: var(--primary);
+}
+.section-dark .btn-secondary:hover,
+.newsletter-cta .btn-secondary:hover {
+    background: var(--primary);
+    color: var(--white);
+}
 
 .newsletter-form {
     display: flex;
@@ -328,8 +340,6 @@ strong { font-weight: var(--font-semibold); color: var(--dark); }
 .newsletter-cta h3 { color: var(--white); margin-bottom: var(--space-2); }
 .newsletter-cta p { color: rgba(255, 255, 255, 0.8); margin-bottom: var(--space-4); }
 .newsletter-cta strong { color: var(--white); }
-.newsletter-cta .btn-secondary { color: var(--primary); border-color: var(--primary); }
-.newsletter-cta .btn-secondary:hover { background: var(--primary); color: var(--white) !important; }
 .or-divider { color: rgba(255, 255, 255, 0.5); margin: var(--space-3) 0; font-size: var(--text-sm); }
 .small-text {
     font-size: var(--text-sm);
