@@ -205,6 +205,7 @@ strong { font-weight: var(--font-semibold); color: var(--dark); }
 .section-alt { background: var(--primary-light); }
 .section-dark { background: var(--dark); color: var(--white); }
 .section-dark h2, .section-dark h3 { color: var(--white); }
+.section-dark strong { color: var(--white); }
 .section-label {
     display: block;
     color: var(--primary);
@@ -300,6 +301,7 @@ strong { font-weight: var(--font-semibold); color: var(--dark); }
 .judgment-gate .section-label { color: var(--primary); }
 .judgment-gate h3 { color: var(--white); }
 .judgment-gate p { color: rgba(255, 255, 255, 0.9); }
+.judgment-gate strong { color: var(--white); }
 
 .micro-win {
     border: 2px solid var(--primary);
@@ -324,6 +326,7 @@ strong { font-weight: var(--font-semibold); color: var(--dark); }
 }
 .newsletter-cta h3 { color: var(--white); margin-bottom: var(--space-2); }
 .newsletter-cta p { color: rgba(255, 255, 255, 0.8); margin-bottom: var(--space-4); }
+.newsletter-cta strong { color: var(--white); }
 .or-divider { color: rgba(255, 255, 255, 0.5); margin: var(--space-3) 0; font-size: var(--text-sm); }
 .small-text {
     font-size: var(--text-sm);
